@@ -9,16 +9,19 @@
 
 import sys
 import hashlib
+import csv
 
 csvfilename = sys.argv[1]
 print csvfilename
 
-csvfile = open(csvfilename, 'r')
-for line in csvfile:
-	linearray = str.split(line, ',')
-	name = linearray[2]
-	email = linearray[3]
-	print name
-	print "# md5 -s " + email
-	print "face = " + hashlib.md5(str.lower(email)).hexdigest()
-	print ""
+with open(csvfilename, 'r') as csvfile:
+	studentreader = csv.reader(csvfile, delimiter=',')
+	for student in studentreader:
+		#print ', '.join(student)
+		name = student[4]
+		email = student[5]
+ 		print "[http://example.com]"
+		print "name = " + name
+		#print "# md5 -s " + email.replace('@',  ' ')
+		print "face = " + hashlib.md5(str.lower(email)).hexdigest()
+		print ""
