@@ -1,0 +1,28 @@
+<rss xmlns:lj="http://www.livejournal.org/rss/lj/1.0/" xmlns:atom10="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>Someone Needs To Update Their Blog Entry</title>
+		<link>http://invalid.network/</link>
+		<description>Someone Needs To Update Their Blog Entry</description>
+		<lastBuildDate>Sat, 31 May 2014 05:19:41 GMT</lastBuildDate>
+		<generator>Someone Needs To Update Their Blog Entry</generator>
+		<image>
+			<url>http://invalid.network/</url>
+			<title>Someone Needs To Update Their Blog Entry</title>
+			<link>http:///</link>
+			<width>100</width>
+			<height>100</height>
+		</image>
+		<item>
+			<guid isPermaLink="true">http://invalid.network</guid>
+			<pubDate>Sat, 31 May 2014 05:19:41 GMT</pubDate>
+			<title>
+				Someone Needs To Update Their Blog Entry
+			</title>
+			<link>http://invalid.network</link>
+			<description>
+			</description>
+			<comments>http://invalid.network</comments>
+			<category>needmoreinfo</category>
+		</item>
+	</channel>
+</rss>
